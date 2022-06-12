@@ -148,10 +148,7 @@
                     </p>
                     <div class="contact">
                         <div class="col">
-                            <form
-                                method="post"
-                                action="https://steamboat-mailer.onrender.com/mailing"
-                            >
+                            <form id="form">
                                 <input
                                     type="text"
                                     name="name"
@@ -170,10 +167,10 @@
                                     placeholder="Message"
                                     rows="4"
                                 ></textarea>
+                                <button class="btn send" type="submit">
+                                    Enviar
+                                </button>
                             </form>
-                            <button class="btn send" type="submit" value="">
-                                Enviar
-                            </button>
                         </div>
                         <div class="col">
                             <div class="icon icon-location">
@@ -325,5 +322,6 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="./assets/js/chat.js"></script>
+        <script src="./assets/js/contacto.js"></script>
     </body>
 </html>
