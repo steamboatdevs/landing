@@ -1,0 +1,76 @@
+
+
+header{
+    border: 1px solid #000;
+}
+
+
+.logo{
+    border: 1px solid #0ff;
+}
+
+header p{
+    border: 1px solid #000;
+}
+
+
+#main{
+    border: 5px solid #0d0;
+}
+
+.inner{
+    border: 1px solid #000;
+}
+
+
+.head{
+    border: 1px solid #000;
+}
+
+
+
+.btn{
+    border: 3px solid #e9870f;
+}
+
+.pro{
+    border: 1px solid #000;
+
+}
+
+
+.block{
+    border: 1px solid #000;
+}
+
+footer{
+    border: 2px solid #00d;
+}
+
+footer .social{
+    border: 1px solid #000;        
+}
+
+
+footer ul.social li{
+    border: 1px solid #000;
+}
+footer p{
+    border: 1px solid #000;
+}
+
+
+.icon-location,
+.icon-phone,
+.icon-mail2{
+    border: 1px solid #000;
+}
+
+.icon-location img,
+.icon-phone img,
+.icon-mail2 img{
+    border: 1px solid #000;
+}
+
+
+
