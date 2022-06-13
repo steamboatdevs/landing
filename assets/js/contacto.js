@@ -51,6 +51,5 @@ const send = async () => {
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    console.log('click');
     send();
 });
