@@ -16,8 +16,7 @@ const send = async () => {
             message: message.value,
         }),
     };
-    // data = await fetch('https://steamboat-mailer.onrender.com/mailing', config);
-    data = await fetch('http://localhost:8080/mailing', config);
+    data = await fetch('https://steamboat-mailer.onrender.com/mailing', config);
     res = await data.json();
     if (data.status !== 200) {
         notification.style.visibility = 'visible';
